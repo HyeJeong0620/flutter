@@ -1,0 +1,7 @@
+"A handle to the location of a widget in the widget tree."
+widget tree 에서 현재 widget의 위치를 알 수 있는 정보
+build method -> Scaffold Widget
+
+"Each widget has its own BuildContext, (which becomes the parent of the widget returned by the StatelessWidget.build or State.build function)."
+이 BuildContext는 stateless위젯이나 state 빌드 메서드에 의해서 리턴 된 위젯의 부모가 된다
+MyPage widget build method -> Scaffold Widget -> Scaffold 위젯의 진짜 context를 가진 위젯C:\Users\user\Documents\flutter\myapp3\lib\main.dart
