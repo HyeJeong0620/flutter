@@ -1,0 +1,36 @@
+name: dreamdiary
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  table_calendar: ^3.1.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/calendar.svg
+    - assets/images/home.svg
+    - assets/images/left.svg
+    - assets/images/person.svg
+    - assets/images/Union.svg
+    - assets/images/Login.svg
